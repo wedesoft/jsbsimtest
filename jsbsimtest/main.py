@@ -1,5 +1,9 @@
+import jsbsim
+
+
 def main():
-    pass
+    fdmex = jsbsim.FGFDMExec('')
+    fdmex.load_model('Shuttle')
 
 
 if __name__ == "__main__":
