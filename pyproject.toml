@@ -1,0 +1,11 @@
+[project]
+name = "jsbsimtest"
+version = "0.1.0"
+description = "Try out JSBSim"
+dependencies = [
+  "jsbsim == 1.2.1",
+]
+requires-python = ">=3.11"
+
+[project.scripts]
+jsbsimtest = "jsbsimtest.main:main"
