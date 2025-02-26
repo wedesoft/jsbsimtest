@@ -184,11 +184,11 @@
                 </clipto>
             </summer>
 
-            <lag_filter name="Elevator Filter">
+            <!--   <lag_filter name="Elevator Filter">
                 <input>fcs/elevator-positioning</input>
                 <c1>600</c1>
                 <output>fcs/elevator-pos-rad</output>
-            </lag_filter>
+            </lag_filter> -->
 
         </channel>
 
